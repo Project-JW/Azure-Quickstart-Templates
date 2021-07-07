@@ -95,7 +95,8 @@
         "publicIPAllocationMethod": "[variables('publicIPAddressType')]",
         "dnsSettings": {
           "domainNameLabel": "[parameters('dnsNameForPublicIP')]"
-        }
+        },
+		"IsManualIntegration": true
       }
     },
     {
@@ -119,7 +120,8 @@
               "destinationAddressPrefix": "*"
             }
           }
-        ]
+        ],
+		"IsManualIntegration": true
       }
     },
     {
@@ -134,7 +136,8 @@
         "addressSpace": {
           "addressPrefixes": [
             "[variables('addressPrefix')]"
-          ]
+          ],
+		  "IsManualIntegration": true
         },
         "subnets": [
           {
@@ -172,7 +175,8 @@
               }
             }
           }
-        ]
+        ],
+		"IsManualIntegration": true
       }
     },
     {
@@ -215,7 +219,8 @@
               "id": "[resourceId('Microsoft.Network/networkInterfaces',variables('nicName'))]"
             }
           ]
-        }
+        },
+		"IsManualIntegration": true
       }
     },
     {
@@ -230,7 +235,8 @@
         "publisher": "Microsoft.Azure.Extensions",
         "type": "DockerExtension",
         "typeHandlerVersion": "1.0",
-        "autoUpgradeMinorVersion": true
+        "autoUpgradeMinorVersion": true,
+		"IsManualIntegration": true
       }
     }
   ]
