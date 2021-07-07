@@ -6,4 +6,4 @@
 
 This template allows you to deploy an Ubuntu VM with Docker (using the Docker Extension) installed.
 You can run `docker` commands by connecting to the virtual machine with SSH.
-This docker is the first component required to start developing Terraform Building Blocks.
+This docker is the first component required to start developing Terraform Building Blocks.09:27 7-7-2021
