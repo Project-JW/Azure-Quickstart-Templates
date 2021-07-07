@@ -3,9 +3,9 @@
 [![Deploy To Azure](https://raw.githubusercontent.com/Project-JW/Azure-Quickstart-Templates/blob/master/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FProject-JW%2FAzure-Quickstart-Templates%2Fmaster%2Fvm-ubuntu-dockerengine%2Fazuredeploy.json)
 
 
-[![Deploy To Azure2](https://github.com/Project-JW/Azure-Quickstart-Templates/blob/master/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2FProject-JW%2FAzure-Quickstart-Templates%2Fblob%2Fmaster%2Fvm-ubuntu-dockerengine%2Fazuredeploy.json)
+[![Deploy To Azure2](https://raw.githubusercontent.com/Project-JW/Azure-Quickstart-Templates/blob/master/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FProject-JW%2FAzure-Quickstart-Templates%2Fblob%2Fmaster%2Fvm-ubuntu-dockerengine%2Fazuredeploy.json)
 
-[![Visualize](https://github.com/Project-JW/Azure-Quickstart-Templates/blob/master/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fgithub.com%2FProject-JW%2FAzure-Quickstart-Templates%2Fmaster%2Fvm-ubuntu-dockerengine%2Fazuredeploy.json) 
+[![Visualize](https://raw.githubusercontent.com/Project-JW/Azure-Quickstart-Templates/blob/master/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FProject-JW%2FAzure-Quickstart-Templates%2Fmaster%2Fvm-ubuntu-dockerengine%2Fazuredeploy.json) 
 
 This template allows you to deploy an Ubuntu VM with Docker (using the Docker Extension) installed.
 You can run `docker` commands by connecting to the virtual machine with SSH.
