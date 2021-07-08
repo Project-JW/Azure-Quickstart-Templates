@@ -6,11 +6,4 @@
 
 This template allows you to deploy an Ubuntu VM with Docker (using the Docker Extension) installed.
 You can run `docker` commands by connecting to the virtual machine with SSH.
-This docker is the first component required to start developing Terraform Building Blocks.09:27 7-7-2021
-
-https://github.com/Project-JW/Azure-Quickstart-Templates/blob/master/images/deploytoazure.png?raw=true
-
-https://github.com/Project-JW/Azure-Quickstart-Templates/blob/master/vm-ubuntu-dockerengine/azuredeploy.json
-
-
-https://raw.githubusercontent.com/Project-JW/Azure-Quickstart-Templates/master/images/deploytoazure.svg
+This docker is the first component required to start developing Terraform Building Blocks.
